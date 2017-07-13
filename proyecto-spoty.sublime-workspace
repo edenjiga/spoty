@@ -1,0 +1,487 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"file",
+				"fileInput"
+			],
+			[
+				"s",
+				"string"
+			],
+			[
+				"Art",
+				"ArtistEditComponent"
+			],
+			[
+				"get",
+				"getArtist"
+			],
+			[
+				"Re",
+				"RequestOptions"
+			],
+			[
+				"alert",
+				"alertMessage"
+			],
+			[
+				"Artist",
+				"ArtistService"
+			],
+			[
+				"art",
+				"ArtistAddComponent"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"uploa",
+				"uploadFile"
+			],
+			[
+				"u",
+				"updateSong"
+			],
+			[
+				"song",
+				"songUpdated"
+			],
+			[
+				"fin",
+				"findById"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"err",
+				"err"
+			],
+			[
+				"S",
+				"Song"
+			],
+			[
+				"album",
+				"albumId"
+			],
+			[
+				"save",
+				"savesong"
+			],
+			[
+				"Son",
+				"songStored"
+			],
+			[
+				"key",
+				"keyid2"
+			],
+			[
+				"uplo",
+				"uploadImage"
+			],
+			[
+				"upda",
+				"updateAlbum"
+			],
+			[
+				"geta",
+				"getalbums"
+			],
+			[
+				"artis",
+				"artist"
+			],
+			[
+				"arti",
+				"artist"
+			],
+			[
+				"al",
+				"AlbumController"
+			],
+			[
+				"up",
+				"uploadImage"
+			],
+			[
+				"ar",
+				"artistId"
+			],
+			[
+				"artist",
+				"artistId"
+			],
+			[
+				"g",
+				"getArtists"
+			],
+			[
+				"artists",
+				"artists"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"str",
+				"stringify"
+			],
+			[
+				"app",
+				"appRoutingProviders"
+			],
+			[
+				"User",
+				"UserService"
+			],
+			[
+				"user",
+				"user-edit"
+			],
+			[
+				"aler",
+				"alertRegister"
+			],
+			[
+				"erro",
+				"error"
+			],
+			[
+				"con",
+				"Content-Type"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"_",
+				"_userService"
+			],
+			[
+				"A",
+				"Access-Control-Allow-Origin"
+			],
+			[
+				"fo",
+				"form-control"
+			],
+			[
+				"path",
+				"path_file"
+			],
+			[
+				"ex",
+				"exist"
+			],
+			[
+				"imag",
+				"imageFile"
+			],
+			[
+				"md_",
+				"md_upload"
+			],
+			[
+				"au",
+				"authorization"
+			],
+			[
+				"re",
+				"req"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"res",
+				"res"
+			],
+			[
+				"sa",
+				"status"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"U",
+				"UserSchema"
+			],
+			[
+				"mo",
+				"mongoose"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/spoty",
+		"/C/wamp64/www/spoty/api",
+		"/C/wamp64/www/spoty/api/controllers",
+		"/C/wamp64/www/spoty/client",
+		"/C/wamp64/www/spoty/client/src",
+		"/C/wamp64/www/spoty/client/src/app",
+		"/C/wamp64/www/spoty/client/src/app/components",
+		"/C/wamp64/www/spoty/client/src/app/models",
+		"/C/wamp64/www/spoty/client/src/app/services",
+		"/C/wamp64/www/spoty/client/src/app/views",
+		"/C/wamp64/www/spoty/client/src/assets",
+		"/C/wamp64/www/spoty/client/src/assets/css"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/spoty/client/src/app/app.routing.ts",
+		"/C/wamp64/www/spoty/client/src/app/components/artist-edit.component.ts",
+		"/C/wamp64/www/spoty/client/src/app/components/artist-add.component.ts",
+		"/C/wamp64/www/spoty/client/src/assets/css/styles.css",
+		"/C/wamp64/www/spoty/client/src/app/views/artist-add.html",
+		"/C/cygwin64/home/DCA-20/.bash_profile",
+		"/C/wamp64/www/spoty/client/src/app/app.module.ts",
+		"/C/wamp64/www/spoty/client/src/app/views/artist-list.html",
+		"/C/wamp64/www/spoty/client/src/app/views/home.html",
+		"/C/wamp64/www/spoty/client/src/app/services/upload.service.ts",
+		"/C/wamp64/www/spoty/client/src/app/services/artist.service.ts",
+		"/C/wamp64/www/spoty/client/src/app/app.component.html",
+		"/C/wamp64/www/spoty/client/src/app/components/home.component.ts",
+		"/C/wamp64/www/spoty/client/src/app/app.component.ts",
+		"/C/wamp64/www/spoty/client/src/app/components/artist-list.component.ts",
+		"/C/wamp64/www/spoty/api/controllers/user.js",
+		"/C/wamp64/www/spoty/client/src/app/services/user.service.ts",
+		"/C/wamp64/www/spoty/api/app.js",
+		"/C/wamp64/www/spoty/api/controllers/artist.js",
+		"/C/wamp64/www/spoty/api/controllers/album.js",
+		"/C/wamp64/www/spoty/api/controllers/song.js",
+		"/C/wamp64/www/spoty/api/routes/song.js",
+		"/C/wamp64/www/spoty/api/routes/album.js",
+		"/C/wamp64/www/spoty/api/routes/artist.js",
+		"/C/Users/DCA-20/Downloads/usuariosBase.txt",
+		"/C/wamp64/www/spoty/api/routes/user.js",
+		"/C/Users/DCA-20/Desktop/tnsnames.ora",
+		"/C/app/DCA-20/product/11.2.0/client_2/network/admin/tnsnames.ora",
+		"/C/Program Files/Oracle/Inventory/ContentsXML/inventory.xml",
+		"/C/wamp64/www/spoty/api/models/artist.js",
+		"/C/wamp64/www/spoty/api/models/user.js",
+		"/C/wamp64/www/spoty/client/src/app/views/user-edit.html",
+		"/C/wamp64/www/spoty/client/src/app/components/user-edit.component.ts",
+		"/C/wamp64/www/spoty/client/src/app/services/global.ts",
+		"/C/wamp64/www/spoty/client/src/index.html",
+		"/C/wamp64/www/spoty/client/src/app/models/user.ts",
+		"/C/wamp64/www/spoty/api/package.json",
+		"/C/wamp64/www/spoty/client/package.json",
+		"/C/wamp64/www/spoty/client/src/app/models/song.ts",
+		"/C/wamp64/www/spoty/client/src/app/models/album.ts",
+		"/C/wamp64/www/spoty/client/src/app/models/artist.ts",
+		"/C/wamp64/www/spoty/app.js",
+		"/C/wamp64/www/spoty/package.json",
+		"/C/wamp64/www/spoty/routes/user.js",
+		"/C/wamp64/www/spoty/controllers/user.js",
+		"/C/wamp64/www/spoty/index.js",
+		"/C/wamp64/www/spoty/node_modules/connect-multiparty/index.js",
+		"/C/wamp64/www/spoty/node_modules/multiparty/index.js",
+		"/C/wamp64/www/spoty/models/user.js",
+		"/C/wamp64/www/spoty/services/jwt.js",
+		"/C/wamp64/www/spoty/middlewares/authenticated.js",
+		"/C/wamp64/www/spoty/models/song.js",
+		"/C/wamp64/www/spoty/models/album.js",
+		"/C/wamp64/www/spoty/models/artist.js",
+		"/C/wamp64/www/spoty/controller/user.js",
+		"/C/cygwin64/home/PERSONAL/.bash_profile"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"P{dataitemid}",
+			"$P{version}",
+			"$P{dataitemid}",
+			"(select MAX(keyid2) from sdiattribute where keyid1 =$P{dataitemid})",
+			"(select MAX(keyid2) from sdiattribute where keyid1 =$P{dataitemid} )",
+			"'CC.PH-001'",
+			"$P{dataitemid}",
+			"t4",
+			"dest",
+			"ypf",
+			"cerrar ",
+			"user_logged"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'CC.MON-001'",
+			"2",
+			"t1.Spc_Ccparamitemversionid",
+			"t1.spc_ccparamitemid",
+			"$P{version}",
+			"$P{dataitemid}",
+			"'CC.PH-001'",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "proyecto-spoty.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
