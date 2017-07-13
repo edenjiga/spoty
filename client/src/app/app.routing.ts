@@ -12,12 +12,16 @@ import {ArtistAddComponent} from './components/artist-add.component';
 import {ArtistEditComponent} from './components/artist-edit.component';
 import {ArtistDetailComponent} from './components/artist-detail.component';
 
+//import albums
+import {AlbumAddComponent} from './components/album-add.component';
+
 const appRoutes: Routes = [
 	{path: '', component:HomeComponent},
 	{path: 'artistas/:page', component: ArtistListComponent},
 	{path: 'crear-artista', component: ArtistAddComponent},
 	{path: 'editar-artista/:id', component: ArtistEditComponent},
 	{path: 'artista/:id', component: ArtistDetailComponent},
+	{path: 'crear-album/:artist', component: AlbumAddComponent},
 	{path: 'mis-datos', component: UserEditComponent},
 	{path: '**', component: HomeComponent}
 ];
