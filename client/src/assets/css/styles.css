@@ -1,3 +1,6 @@
+
+/* GLOBAL */
+
 html, body{
 	margin : 0px;
 	height:  100%;
@@ -21,6 +24,12 @@ html, body{
 	height: 40px;
 }
 
+.seguro-album{
+	margin-top: -41px;
+	margin-left: 10px;
+}
+
+/* Barra Lateral */
 .head-title{
 	font-size: 20px;
 	font-weight: bold;
@@ -82,18 +91,36 @@ width: 57px;
 	cursor: pointer;
 }
 
-.artist_image_for_edit img{
+/* DETALLES DE ARTISTAS Y ALBUM*/
+#artist-head-car .image,
+#album-head-car .image{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	float: left;
+	margin-right: 30px;
+}
+
+#artist-head-card .image img,
+#album-head-card .image img{
+	width: 150px;
+}
+/* Artistas y Albums */
+.artist_image_for_edit img,
+.album_image_for_edit img{
 	width: 150px;
 }
 
-.artist-list{
+.artist-list,
+.album-list{
 	margin: 0px;
 	padding: 0px;
 	margin-top: 30px;
 	list-style: none;
 }
 
-.artist-item{
+.artist-item,
+.album-item{
 	width: 23%;
 	margin: 0px;
 	padding: 0px;
@@ -103,7 +130,8 @@ width: 57px;
 	margin-top: 20px;
 }
 
-.artist-item .artist-image{
+.artist-item .artist-image,
+.album-item .album-image{
 	height: 245px;
 	width: 100%;
 	overflow: hidden;
@@ -116,24 +144,24 @@ width: 57px;
 	background: black;
 }
 
-.artist-item .artist-name{
+.artist-item .artist-name,
+.album-item .album-name{
 	color: white;
 	padding: 10px;
 	background: #222326;
 }
 
-.artist-item .artist-name a{
+.artist-item .artist-name a,
+.album-item .album-name a{
 	color: white;
 }
+/* ALBUMS */
 
-#artist-head-car .image{
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	float: left;
-	margin-right: 30px;
+
+.album-item{
+	height: 357px;
 }
 
-#artist-head-card .image img{
-	width: 150px;
+.album-item .album-image img{
+	width: 100%;
 }
