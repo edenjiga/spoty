@@ -4,7 +4,9 @@ import { Router, ActivatedRoute, Params } from '@angular/router';
 import { GLOBAL } from '../services/global';
 import { UserService } from '../services/user.service';
 import {AlbumService} from '../services/album.service';
+import {SongService} from '../services/song.service';
 import {Album} from '../models/album';
+import {Song} from '../models/song';
 @Component({
 	selector: 'album-detail',
 	templateUrl: '../views/album-detail.html',
@@ -13,16 +15,19 @@ import {Album} from '../models/album';
 
 export class AlbumDetailComponent implements OnInit{
     public titulo: string;
-    public album: Album;
+	public album: Album;
+	public songs: Song[];
 	public identity;
 	public token;
 	public url: string;
 	public alertMessage;
+	private confirmado;
 	constructor(
 		private _route: ActivatedRoute,
 		private _router: Router,
 		private _userService: UserService,
-		private _albumService: AlbumService
+		private _albumService: AlbumService,
+		private _songService: SongService
 		){
 		this.identity = this._userService.getIdentity();
 		this.token = this._userService.getToken();
@@ -47,25 +52,25 @@ export class AlbumDetailComponent implements OnInit{
 					}else{
 						this.album = response.album;
 
-						// // sacar los albums del artista
-						// this._albumService.getAlbums(this.token, response.artist._id).subscribe(
-						// 	response =>{
+						// sacar las canciones
+						this._songService.getSongs(this.token, response.album._id).subscribe(
+							response =>{
 
-						// 		if(!response.albums){
-						// 			this.alertMessage = 'Este Artista no tiene albums';
-						// 		}else{
-						// 			this.albums = response.albums;
-						// 		}
-						// 	},
-						// 	error =>{
-						// 	var errorMessage = <any>error;
-						// 		if(errorMessage!=null){
-						// 			var body = JSON.parse(error._body);
-						// 			// this.alertMessage =body.message;
-						// 			console.log(error);
-						// 		}
-						// 	}
-						// );
+								if(!response.songs){
+									this.alertMessage = 'Este Album no tiene albums';
+								}else{
+									this.songs = response.songs;
+								}
+							},
+							error =>{
+							var errorMessage = <any>error;
+								if(errorMessage!=null){
+									var body = JSON.parse(error._body);
+									// this.alertMessage =body.message;
+									console.log(error);
+								}
+							}
+						);
 					}
 				},
 				error => {
@@ -79,5 +84,34 @@ export class AlbumDetailComponent implements OnInit{
 	            }
 			);
 		});
+	}
+
+	onDeleteConfirm(id){
+		this.confirmado = id;
+	}
+
+	onCancelSong(){
+		this.confirmado = null;
+	}
+
+	onDeleteSong(id){
+		this._songService.deleteSong(this.token, id).subscribe(
+			response =>{
+				if(!response.song){
+					alert('Error en el servidor');
+				}else{
+					this.getAlbum();
+				}
+			}
+			,error => {
+				var errorMessage = <any>error;
+
+				if(errorMessage!=null){
+				var body = JSON.parse(error._body);
+				//this.alertMessage =body.message;
+				console.log(error);
+				}
+			}
+		)
 	}
 }
